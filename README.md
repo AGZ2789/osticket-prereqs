@@ -63,8 +63,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
   - Create an Azure Virtual Machine using Windows 10, 4 vCPUs
   - Name: VM-osticket
-  - Username: labuser (or whatever you chose)
-  - Password: Password1! (or whatever you chose)
+  - Username: labuser (or whatever you choose)
+  - Password: Password1! (or whatever you choose)
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
@@ -85,6 +85,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 - <h3>When creating the VM, It will create a new Virtual Network (Vnet)</h3>
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-15_13-01-17](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/6dea61b0-4530-43e8-92e8-2532883515e8)
 
@@ -149,6 +151,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 - Confirm installation by accessing http://127.0.0.1 in the browser.
+  - Installation confirmation - Enter 127.0.0.1 (Local Host or the Loop Back)
+on VM browser address bar —> press enter and the default IIS website should appear.
+Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage that’s running off myself.
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
@@ -179,7 +184,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - <h3>Download IIS URL Rewrite Module from the Installation Files</h3>
 
-🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Screenshot 2024-05-02 132202](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/c59c0662-8096-47de-90d0-65f033409993)
 
@@ -233,6 +238,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <h3>Download MySQL 5.5.62 from the Installation Files</h3>
   - Download MySQL 5.5.62 and follow steps 1-4 on the screenshot below
   
+  - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+    - Typical Setup ->
+    - Launch Configuration Wizard (after install) ->
+    - Standard Configuration ->
+    - Password1
+  
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-17_20-36-39](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/d9a5c2c4-aac9-4a19-a818-412ee41a9a91)
@@ -242,6 +253,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - <h3>Open IIS as Administrator</h3>
 
+- Go to sites -> Default -> osTicket
+  - On the right, click “Browse *:80”
+
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-15_15-51-41](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/c9795f54-c4a4-4c79-a31a-346eabbab6d6)
@@ -250,6 +264,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Install osTicket from the Installation Files</h3>
+- Note that some extensions are not enabled
+- Go back to IIS, sites -> Default -> osTicket
+  - Double-click PHP Manager
+  - Click “Enable or disable an extension”
+    - Enable: php_imap.dll
+    - Enable: php_intl.dll
+    - Enable: php_opcache.dll
+- Refresh the osTicket site in your browse, observe the changes
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
