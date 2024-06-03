@@ -7,13 +7,17 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+
+- https://docs.google.com/document/d/1JfsM1LRBu6UfCGy1wkADmG3cRzhmuzEoTLt9BRisgQ4/edit?usp=sharing
+
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used</h2>
 
 - Windows 10</b> (21H2)
 
@@ -31,9 +35,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
-- <h3>Create Resource Group</h3>
+- <h3>Create a Resource Group in Azure</h3>
 
-🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+  - Name it RG-osTicket (or whatever you chose)
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-12_19-54-58](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/d8dddb6c-57f0-41df-9898-d7659afc43cc)
 
@@ -50,14 +56,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![Snipaste_2024-05-12_19-59-13](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/cb8625b6-31c9-4be0-952c-0ac39bd08055)
 
 
-
-
 🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
-- <h3>Create Virtual Machine</h3>
+- <h3>Create an Azure Virtual Machine</h3>
+  
+  - Create an Azure Virtual Machine using Windows 10, 4 vCPUs
+  - Name: VM-osticket
+  - Username: labuser (or whatever you chose)
+  - Password: Password1! (or whatever you chose)
 
-🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-12_19-54-10](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/deb24f47-9b0a-4587-8dd4-e118afa6036d)
 
@@ -75,6 +84,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
+- <h3>When creating the VM, It will create a new Virtual Network (Vnet)</h3>
+
 ![Snipaste_2024-05-15_13-01-17](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/6dea61b0-4530-43e8-92e8-2532883515e8)
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
@@ -86,7 +97,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - <h3>Open Microsoft Remote Desktop</h3>
 
-- Copy and paste Public IP Address from the Virtual Machine onto the Microsoft Remote Desktop Connection window
+  - Copy and paste Public IP Address from the Virtual Machine onto the Microsoft Remote Desktop Connection window
   
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
@@ -125,7 +136,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Open Run command —> Ctrl + R —> enter and open “control panel”
   - Navigate to Control Panel -> Programs -> Programs & Features.
   - Select "Turn Windows features on or off".
-  - Ensure the following features are selected:
+  - Ensure the following features are selected & enabled:
     - (IIS) Internet Information Services
     - Expand World Wide Web Services and select:
     - CGI
