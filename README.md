@@ -195,6 +195,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Create Directory C:\PHP</h3>
+
   - Open File Explorer
   - Go to This PC --> Windows(C:) Drive --> Right click --> New --> Folder --> Name it "PHP"
   
@@ -209,7 +210,9 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
-- <h3>Download PHP 7.3.8 from the Installation Files | Unzip contents into C:\PHP</h3>
+- <h3>Download PHP 7.3.8 from the Installation Files</h3>
+
+  - Unzip contents into C:\PHP
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
@@ -236,6 +239,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Download MySQL 5.5.62 from the Installation Files</h3>
+
   - Download MySQL 5.5.62 and follow steps 1-4 on the screenshot below
   
   - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
@@ -255,6 +259,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 - Go to sites -> Default -> osTicket
   - On the right, click “Browse *:80”
+- Reload IIS (Open IIS, Stop and Start the server)
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
@@ -264,7 +269,9 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Install osTicket from the Installation Files</h3>
+
 - Note that some extensions are not enabled
+
 - Go back to IIS, sites -> Default -> osTicket
   - Double-click PHP Manager
   - Click “Enable or disable an extension”
@@ -277,75 +284,111 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_15-57-10](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/49e899f9-5b59-4f61-9f16-02a01cdeb3f0)
 
-
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Rename ost-config.php</h3>
 
+  - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+
 ![Snipaste_2024-05-15_17-38-15](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/ef57f503-39a8-4204-bf2e-cfce82fa4378)
 
-
-
-
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Assign Permissions ost-config.php</h3>
 
+  - Disable inheritance -> Remove All
+  - New Permissions -> Everyone -> All
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+
 ![Snipaste_2024-05-15_17-39-58](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/88be153e-111a-4cfc-bbc4-cb9dd2ffe170)
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-15_18-34-06](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/a4a1f527-2f74-4775-85af-d740e2b4804d)
 
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+
 ![Snipaste_2024-05-15_18-36-47](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/e5cebc98-ea44-41be-b7d5-9e6bc8cee1f3)
+
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
 - <h3>Download & Install HeidiSQL</h3>
 
+- Continue Setting up osTicket in the browser (click Continue)
+  - Name Helpdesk
+  - Default email (receives email from customers)
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+
 ![Snipaste_2024-05-15_19-03-57](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/b6a5b8fa-b2ae-4ce9-8343-e3121fb32df0)
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+
+- From the Installation Files, download and install HeidiSQL.
+  - Open Heidi SQL
+  - Create a new session, root/Password1
+  - Connect to the session
+  - Create a database called “osTicket”
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-15_19-10-56](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/8439c9fe-4fcb-408b-8c5f-636c0350d76a)
 
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
-- <h3></h3>
+- Continue Setting up osticket in the browser
+  - MySQL Database: osTicket
+  - MySQL Username: root
+  - MySQL Password: Password1
+  - Click “Install Now!”
 
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
-
-
-- <h3></h3>
-
-
-
-
-- <h3></h3>
-
+![Snipaste_2024-05-15_19-03-57](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/b6a5b8fa-b2ae-4ce9-8343-e3121fb32df0)
 
 
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
-- <h3></h3>
+- <h3>Congratulations, hopefully it is installed with no errors!</h3>
+  
+  - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
 ![Snipaste_2024-05-15_19-56-43](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/b674a1c2-430a-473a-b30c-21a39608aae9)
 
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
+- <h3>End Users osTicket URL:</h3>
 
+  - http://localhost/osTicket/
 
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Snipaste_2024-05-17_21-58-45](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/f10a7951-a771-49ad-b3ac-73388cc19f9a)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /># osticket-prereqs
+- <h3>Clean up</h3>
+
+  - Delete: C:\inetpub\wwwroot\osTicket\setup
+  - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+- Notes:
+
+  - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
+  - End Users osTicket URL: http://localhost/osTicket/
+ 
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+
