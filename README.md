@@ -1,8 +1,9 @@
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+
+![](https://i.imgur.com/waxVImv.png)
+
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
@@ -31,9 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Create a Resource Group in Azure</h3>
 
@@ -56,8 +55,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![Snipaste_2024-05-12_19-59-13](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/cb8625b6-31c9-4be0-952c-0ac39bd08055)
 
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
+
 
 - <h3>Create an Azure Virtual Machine</h3>
   
@@ -94,8 +93,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![Snipaste_2024-05-12_20-19-39](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/185b0b09-4948-4e3f-9ba0-43add1bc530d)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Open Microsoft Remote Desktop</h3>
 
@@ -130,8 +128,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![Snipaste_2024-05-14_16-51-45](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/f6f2b87f-713d-4f80-84e4-c0d44922d7dc)
 
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Enable (IIS) Internet Information Services</h3>
 - Install / Enable IIS in Windows with CGI and Common HTTP Features:
@@ -160,8 +157,8 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 ![Snipaste_2024-05-15_13-45-48](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/1cac7590-09ad-4171-aede-8e6598c85721)
 
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
+
 
 - <h3>Download PHP Manager for IIS from the Installation Files</h3>
 
@@ -179,8 +176,8 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
+
 
 - <h3>Download IIS URL Rewrite Module from the Installation Files</h3>
 
@@ -191,8 +188,8 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 ![Screenshot 2024-05-02 135756](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/c3832229-f126-470a-9890-345c92b7c04e)
 
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
+
 
 - <h3>Create Directory C:\PHP</h3>
 
@@ -207,8 +204,9 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_14-13-59](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/9c645f9e-fde1-4800-b63b-86414cc74812)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+
+![](https://i.imgur.com/waxVImv.png)
+
 
 - <h3>Download PHP 7.3.8 from the Installation Files</h3>
 
@@ -226,8 +224,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_15-02-55](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/26746735-c847-435f-9464-b0b0de0538cd)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Download VC redist x86.exe | Microsoft Visual C++ 2015-2022 Redistributable (x86) from the Installation Files</h3>
 
@@ -235,8 +232,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Screenshot 2024-05-02 133812](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/4a45f7c5-3a64-4cb9-a678-5637e4ea4d93)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Download MySQL 5.5.62 from the Installation Files</h3>
 
@@ -252,8 +248,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-17_20-36-39](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/d9a5c2c4-aac9-4a19-a818-412ee41a9a91)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Open IIS as Administrator</h3>
 
@@ -265,8 +260,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_15-51-41](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/c9795f54-c4a4-4c79-a31a-346eabbab6d6)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Install osTicket from the Installation Files</h3>
 
@@ -284,8 +278,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_15-57-10](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/49e899f9-5b59-4f61-9f16-02a01cdeb3f0)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Rename ost-config.php</h3>
 
@@ -296,8 +289,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_17-38-15](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/ef57f503-39a8-4204-bf2e-cfce82fa4378)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Assign Permissions ost-config.php</h3>
 
@@ -316,8 +308,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_18-36-47](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/e5cebc98-ea44-41be-b7d5-9e6bc8cee1f3)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Download & Install HeidiSQL</h3>
 
@@ -354,8 +345,8 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 ![Snipaste_2024-05-15_19-03-57](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/b6a5b8fa-b2ae-4ce9-8343-e3121fb32df0)
 
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
+
 
 - <h3>Congratulations, hopefully it is installed with no errors!</h3>
   
@@ -365,8 +356,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-15_19-56-43](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/b674a1c2-430a-473a-b30c-21a39608aae9)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>End Users osTicket URL:</h3>
 
@@ -376,8 +366,7 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
 
 ![Snipaste_2024-05-17_21-58-45](https://github.com/AGZ2789/osticket-prereqs/assets/84995125/f10a7951-a771-49ad-b3ac-73388cc19f9a)
 
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
 - <h3>Clean up</h3>
 
@@ -389,6 +378,5 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
   - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
   - End Users osTicket URL: http://localhost/osTicket/
  
-🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
-🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶
+![](https://i.imgur.com/waxVImv.png)
 
