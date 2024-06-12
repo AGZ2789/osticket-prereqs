@@ -60,7 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
   - Create an Azure Virtual Machine using Windows 10, 4 vCPUs
   - Name: VM-osticket
-  - Username: labuser (or whatever you choose)
+  - Username: Labuser (or whatever you choose)
   - Password: Password1! (or whatever you choose)
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
