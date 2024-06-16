@@ -376,5 +376,16 @@ Note: 127.0.0.1 (Local Host or the Loop Back) = Meaning try to load a webpage th
   - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
   - End Users osTicket URL: http://localhost/osTicket/
  
-![](https://i.imgur.com/waxVImv.png)
 
+
+🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
+
+<h2>Lab Cleanup (DON’T FORGET THIS)</h2>
+
+- Close your Remote Desktop connection
+- Delete the Resource Group(s) created at the beginning of this lab
+- Verify Resource Group Deletion
+
+<h2>Finish</h2>
+
+![](https://i.imgur.com/waxVImv.png)
